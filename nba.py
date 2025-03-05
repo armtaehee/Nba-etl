@@ -28,7 +28,7 @@ default_args={
 dag = DAG(
     'nba-etl',
     default_args=default_args,
-    description='weather-api-etl-dag',
+    description='nba-api-etl-dag',
     schedule_interval=timedelta(days=1),
 )
 def extract():
